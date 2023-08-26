@@ -1,0 +1,147 @@
+{
+  "Character": "Pikachu",
+  "GroundMoves": {
+    "Jab": {
+      "StartupFrame": "2",
+      "ActiveFrame": "2\u20143",
+      "FramesEndLag": "14",
+      "FramesOnShield": "-12/-13",
+      "BaseDamage": "1.4/1.2%"
+    },
+    "Forward Tilt": {
+      "StartupFrame": "6",
+      "ActiveFrame": "6\u20148",
+      "FramesEndLag": "21",
+      "FramesOnShield": "-14/-15/-13",
+      "BaseDamage": "9.0/8.0/10.0%"
+    },
+    "Up Tilt": {
+      "StartupFrame": "7",
+      "ActiveFrame": "7\u201413",
+      "FramesEndLag": "13",
+      "FramesOnShield": "-13",
+      "BaseDamage": "5.0%"
+    },
+    "Down Tilt": {
+      "StartupFrame": "7",
+      "ActiveFrame": "7\u20148",
+      "FramesEndLag": "10",
+      "FramesOnShield": "-5",
+      "BaseDamage": "6.0%"
+    },
+    "Dash Attack": {
+      "StartupFrame": "6",
+      "ActiveFrame": "6\u20148(9\u201412)",
+      "FramesEndLag": "23",
+      "FramesOnShield": "-12",
+      "BaseDamage": "11.0/6.0%"
+    },
+    "Forward Smash": {
+      "StartupFrame": "15",
+      "ActiveFrame": "15\u201416/17\u201419/20\u201429",
+      "FramesEndLag": "24",
+      "FramesOnShield": "-29",
+      "BaseDamage": "15.0/18.0/12.0%"
+    },
+    "Up Smash": {
+      "StartupFrame": "10",
+      "ActiveFrame": "10\u201412/13\u201414/15\u201417",
+      "FramesEndLag": "27",
+      "FramesOnShield": "-24",
+      "BaseDamage": "(14.0/13.0)/11.0/7.0%"
+    },
+    "Down Smash": {
+      "StartupFrame": "8/11/14/17/20/23",
+      "ActiveFrame": "8\u20149/11\u201412/14\u201415/17\u201418/20\u201421",
+      "FramesEndLag": "44",
+      "FramesOnShield": "-39",
+      "BaseDamage": "2.0/3.0%"
+    }
+  },
+  "AerialMoves": {
+    "Neutral Air": {
+      "StartupFrame": "3/9/15/21",
+      "ActiveFrame": "3\u20146/9\u201412/15\u201418/21\u201422",
+      "FramesEndLag": "16",
+      "FramesOnShield": "-7",
+      "Autocancels": ["SH", "FH", "FHFF"],
+      "BaseDamage": "1.7/3.5%"
+    },
+    "Forward Air": {
+      "StartupFrame": "11...",
+      "ActiveFrame": "11\u201425/27 (rehit: 3)",
+      "FramesEndLag": "14",
+      "FramesOnShield": "-10/-9",
+      "Autocancels": ["SH", "FH", "FHFF"],
+      "BaseDamage": "1.3/4.8%"
+    },
+    "Back Air": {
+      "StartupFrame": "4/8/12/16/20/24",
+      "ActiveFrame": "4\u20145/8\u20149/12\u201413/16\u201417/20\u201421/24\u201425/1\u20142",
+      "FramesEndLag": "18",
+      "FramesOnShield": "-12",
+      "Autocancels": ["SH", "FH"],
+      "BaseDamage": "1.0/3.5/4.0%"
+    },
+    "Up Air": {
+      "StartupFrame": "4",
+      "ActiveFrame": "4\u20146/7\u20148",
+      "FramesEndLag": "18",
+      "FramesOnShield": "-11/-11",
+      "Autocancels": ["SH", "FH", "SHFF", "FHFF"],
+      "BaseDamage": "6.0/5.0/4.0%"
+    },
+    "Down Air": {
+      "StartupFrame": "14",
+      "ActiveFrame": "14\u201415/16\u201426/1\u20142",
+      "FramesEndLag": "21",
+      "FramesOnShield": "-16",
+      "Autocancels": ["SH", "FH"],
+      "BaseDamage": "13.0/12.0/4.0%"
+    }
+  },
+  "SpecialMoves": {
+    "Neutral B (Thunderjolt)": {
+      "StartupFrame": "19",
+      "ActiveFrame": "19\u201452(53\u201485/86\u2014114)",
+      "FramesEndLag": "--",
+      "FramesOnShield": "-20",
+
+      "BaseDamage": "6.0/4.8%"
+    },
+    "Side B (Skull Bash)": {
+      "StartupFrame": "18/18",
+      "ActiveFrame": "18\u201452",
+      "FramesEndLag": "44",
+      "FramesOnShield": "-11 to -2",
+
+      "BaseDamage": "10.0\u201421.4%"
+    },
+    "Up B (Quick Attack)": {
+      "StartupFrame": "15/29",
+      "ActiveFrame": "15\u201419/29\u201433",
+      "FramesEndLag": "19",
+      "FramesOnShield": "-33",
+
+      "BaseDamage": "3.0/2.0%"
+    },
+    "Down B (Thunder)": {
+      "StartupFrame": "13/**",
+      "ActiveFrame": "13\u201415(16\u201485): Early // 21\u201423(24\u201493): Late // 1-2: Contact",
+      "FramesEndLag": "84",
+      "FramesOnShield": "-26",
+      "BaseDamage": "6.0/8.0/15.0%"
+    }
+  },
+  "MiscInfo": {
+    "Weight": 79,
+    "Gravity": 0.095,
+    "Walk Speed": 1.302,
+    "Run Speed": 2.039,
+    "Air Speed": 0.957,
+    "Standing Grab Speed (Frames)": 7,
+    "Dash Grab Speed (Frames)": 11,
+    "Pivot Grab Speed (Frames)": 12,
+    "Fastest OoS Option": "Neutral Air - 6 frames"
+  }
+}

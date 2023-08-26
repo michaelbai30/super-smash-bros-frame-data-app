@@ -1,0 +1,186 @@
+{
+  "Character": "CaptainFalcon",
+  "GroundMoves": {
+    "Jab1": {
+      "StartupFrame": "3",
+      "ActiveFrame": "3",
+      "FramesEndLag": "14",
+      "FramesOnShield": "-11",
+      "BaseDamage": "1.5%"
+    },
+    "Jab2": {
+      "StartupFrame": "5",
+      "ActiveFrame": "5",
+      "FramesEndLag": "13",
+      "FramesOnShield": "-10",
+      "BaseDamage": "1.5%"
+    },
+    "Jab3": {
+      "StartupFrame": "6",
+      "ActiveFrame": "6\u20147",
+      "FramesEndLag": "25",
+      "FramesOnShield": "-20",
+      "BaseDamage": "5.0%"
+    },
+    "Rapid Jab": {
+      "StartupFrame": "5/7/9",
+      "ActiveFrame": "**",
+      "FramesEndLag": "--",
+      "FramesOnShield": "--",
+      "BaseDamage": "0.6%"
+    },
+    "Rapid Jab Finisher": {
+      "StartupFrame": "6",
+      "ActiveFrame": "6\u20147",
+      "FramesEndLag": "42",
+      "FramesOnShield": "-39",
+      "BaseDamage": "3.0%"
+    },
+    "Forward Tilt": {
+      "StartupFrame": "7",
+      "ActiveFrame": "7\u201410",
+      "FramesEndLag": "19",
+      "FramesOnShield": "-14/-13",
+      "BaseDamage": "8.0/9.0%"
+    },
+    "Up Tilt": {
+      "StartupFrame": "14",
+      "ActiveFrame": "14\u201417",
+      "FramesEndLag": "19",
+      "FramesOnShield": "-12",
+      "BaseDamage": "11.0%"
+    },
+    "Down Tilt": {
+      "StartupFrame": "11",
+      "ActiveFrame": "11\u201412",
+      "FramesEndLag": "22",
+      "FramesOnShield": "-13",
+      "BaseDamage": "10.0%"
+    },
+    "Dash Attack": {
+      "StartupFrame": "7",
+      "ActiveFrame": "7\u20149(10\u201416)",
+      "FramesEndLag": "18",
+      "FramesOnShield": "-13",
+      "BaseDamage": "10.0/6.0%"
+    },
+    "Forward Smash": {
+      "StartupFrame": "19",
+      "ActiveFrame": "19\u201422",
+      "FramesEndLag": "37",
+      "FramesOnShield": "-27",
+      "BaseDamage": "19.0/20.0%"
+    },
+    "Up Smash": {
+      "StartupFrame": "22/28",
+      "ActiveFrame": "22(23)/28\u201429",
+      "FramesEndLag": "16",
+      "FramesOnShield": "-7",
+      "BaseDamage": "(7.0%/12.0%)/(14.0%/13.0%)%"
+    },
+    "Down Smash": {
+      "StartupFrame": "19/29",
+      "ActiveFrame": "19\u201420/29\u201430",
+      "FramesEndLag": "18",
+      "FramesOnShield": "-19/-7",
+      "BaseDamage": "14.0/18.0%"
+    }
+  },
+  "AerialMoves": {
+    "Neutral Air": {
+      "StartupFrame": "7/13",
+      "ActiveFrame": "7\u20148/13\u201415",
+      "FramesEndLag": "24",
+      "FramesOnShield": "-4/-4",
+      "Autocancels": ["SH", "FH", "FHFF"],
+      "BaseDamage": "4.0/6.0%"
+    },
+    "Forward Air": {
+      "StartupFrame": "14",
+      "ActiveFrame": "14(15\u201430)",
+      "FramesEndLag": "15",
+      "FramesOnShield": "-11/-15",
+      "Autocancels": ["FH"],
+      "BaseDamage": "22.0/6.0/3.0%"
+    },
+    "Back Air": {
+      "StartupFrame": "10",
+      "ActiveFrame": "10\u201411(12\u201415)",
+      "FramesEndLag": "20",
+      "FramesOnShield": "-5/-7",
+      "Autocancels": ["SH", "FH", "SHFF", "FHFF"],
+      "BaseDamage": "13.0/8.0%"
+    },
+    "Up Air": {
+      "StartupFrame": "7",
+      "ActiveFrame": "7\u201410(11\u201412)",
+      "FramesEndLag": "19",
+      "FramesOnShield": "-6/-6/-6",
+      "Autocancels": ["SH", "FH", "SHFF", "FHFF"],
+      "BaseDamage": "10.0/9.0/8.0%"
+    },
+    "Down Air": {
+      "StartupFrame": "16",
+      "ActiveFrame": "16\u201418",
+      "FramesEndLag": "26",
+      "FramesOnShield": "-7",
+      "Autocancels": ["FH"],
+      "BaseDamage": "14.0%"
+    }
+  },
+  "SpecialMoves": {
+    "Neutral B (Falcon Punch)": {
+      "StartupFrame": "53/62",
+      "ActiveFrame": "53\u201457/62\u201466",
+      "FramesEndLag": "37",
+      "FramesOnShield": "-28/-31",
+      "BaseDamage": "25.0/28.0/22.0/25.0%"
+    },
+    "Side B (Raptor Boost)": {
+      "StartupFrame": "5(+10)",
+      "ActiveFrame": "**",
+      "FramesEndLag": "--",
+      "FramesOnShield": "-12",
+      "BaseDamage": "10.0%"
+    },
+    "Side B, Air (Raptor Boost, Air)": {
+      "StartupFrame": "5(+19)",
+      "ActiveFrame": "**",
+      "FramesEndLag": "--",
+      "FramesOnShield": "--",
+      "BaseDamage": "10.0%"
+    },
+    "Up B (Falcon Dive)": {
+      "StartupFrame": "14",
+      "ActiveFrame": "14\u201430",
+      "FramesEndLag": "--",
+      "FramesOnShield": "--",
+      "BaseDamage": "5.0/13.0%"
+    },
+    "Down B (Falcon Kick)": {
+      "StartupFrame": "13",
+      "ActiveFrame": "13\u201416(17\u201423/24\u201433)",
+      "FramesEndLag": "35",
+      "FramesOnShield": "-51",
+      "BaseDamage": "15.0/11.0/7.0%"
+    },
+    "Down B, Air (Falcon Kick, Air)": {
+      "StartupFrame": "14",
+      "ActiveFrame": "14\u201418(19\u201424/25\u201427)/1\u20142",
+      "FramesEndLag": "29",
+      "FramesOnShield": "-25",
+      "BaseDamage": "15.0/12.0/9.0/9.0%"
+    }
+  },
+  "MiscInfo": {
+    "Weight": 104,
+    "Gravity": 0.12,
+    "Walk Speed": 0.987,
+    "Run Speed": 2.552,
+    "Air Speed": 1.218,
+    "Standing Grab Speed (Frames)": 6,
+    "Dash Grab Speed (Frames)": 9,
+    "Pivot Grab Speed (Frames)": 10,
+    "Fastest OoS Option": "Neutral Air or Up Air - 10 frames"
+  }
+}

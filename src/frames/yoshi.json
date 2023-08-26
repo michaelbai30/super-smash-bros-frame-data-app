@@ -1,0 +1,151 @@
+{
+  "Character": "Yoshi",
+  "GroundMoves": {
+    "Jab1": {
+      "StartupFrame": "3",
+      "ActiveFrame": "3",
+      "FramesEndLag": "14",
+      "FramesOnShield": "-10",
+      "BaseDamage": "3.0%"
+    },
+    "Jab2": {
+      "StartupFrame": "3",
+      "ActiveFrame": "3\u20144",
+      "FramesEndLag": "15",
+      "FramesOnShield": "-11",
+      "BaseDamage": "4.0%"
+    },
+    "Forward Tilt": {
+      "StartupFrame": "5",
+      "ActiveFrame": "5\u20147",
+      "FramesEndLag": "22",
+      "FramesOnShield": "-16",
+      "BaseDamage": "8.0%"
+    },
+    "Up Tilt": {
+      "StartupFrame": "8",
+      "ActiveFrame": "8\u201415",
+      "FramesEndLag": "16",
+      "FramesOnShield": "-16",
+      "BaseDamage": "7.0%"
+    },
+    "Down Tilt": {
+      "StartupFrame": "8",
+      "ActiveFrame": "8\u201410",
+      "FramesEndLag": "13",
+      "FramesOnShield": "-9/-9/-10",
+      "BaseDamage": "5.0/4.5/4.0%"
+    },
+    "Dash Attack": {
+      "StartupFrame": "10",
+      "ActiveFrame": "10\u201412/13\u201420",
+      "FramesEndLag": "20",
+      "FramesOnShield": "-20",
+      "BaseDamage": "11.0/8.0%"
+    },
+    "Forward Smash": {
+      "StartupFrame": "14",
+      "ActiveFrame": "14\u201416",
+      "FramesEndLag": "36",
+      "FramesOnShield": "-28",
+      "BaseDamage": "15.5%"
+    },
+    "Up Smash": {
+      "StartupFrame": "11",
+      "ActiveFrame": "11\u201413/14\u201416",
+      "FramesEndLag": "30",
+      "FramesOnShield": "-24",
+      "BaseDamage": "14.0/12.0%"
+    },
+    "Down Smash": {
+      "StartupFrame": "7/22",
+      "ActiveFrame": "7\u20148/22\u201423",
+      "FramesEndLag": "26",
+      "FramesOnShield": "-34/-19",
+      "BaseDamage": "12.0/10.0%"
+    }
+  },
+  "AerialMoves": {
+    "Neutral Air": {
+      "StartupFrame": "3",
+      "ActiveFrame": "3\u20144(5\u201411/12\u201425)",
+      "FramesEndLag": "19",
+      "FramesOnShield": "-3/-4/-4",
+      "Autocancels": ["SH", "FH", "FHFF"],
+      "BaseDamage": "10.0/7.0/5.0%"
+    },
+    "Forward Air": {
+      "StartupFrame": "16",
+      "ActiveFrame": "16\u201420",
+      "FramesEndLag": "23",
+      "FramesOnShield": "-7/-7",
+      "Autocancels": ["FH", "FHFF"],
+      "BaseDamage": "15.0/14.0%"
+    },
+    "Back Air": {
+      "StartupFrame": "11/14/18",
+      "ActiveFrame": "11/14/18\u201419",
+      "FramesEndLag": "36",
+      "FramesOnShield": "-9/-8",
+      "Autocancels": ["FH"],
+      "BaseDamage": "3.5/5.5%"
+    },
+    "Up Air": {
+      "StartupFrame": "5",
+      "ActiveFrame": "5\u20146",
+      "FramesEndLag": "30",
+      "FramesOnShield": "-3",
+      "Autocancels": ["SH", "FH", "FHFF"],
+      "BaseDamage": "12.0%"
+    },
+    "Down Air": {
+      "StartupFrame": "16/18/20/22/24/26/28/30/32/34/36/38/41",
+      "ActiveFrame": "16/18/20/22/24/26/28/30/32/34/36/38/41",
+      "FramesEndLag": "15",
+      "FramesOnShield": "-14",
+      "Autocancels": ["FH"],
+      "BaseDamage": "(2.3%/1.8%)/(1.9%/1.4%)/2.8%%"
+    }
+  },
+  "SpecialMoves": {
+    "Neutral B (Egg Lay)": {
+      "StartupFrame": "19",
+      "ActiveFrame": "19\u201422",
+      "FramesEndLag": "27",
+      "FramesOnShield": "--",
+      "BaseDamage": "--%"
+    },
+    "Side B (Egg Roll)": {
+      "StartupFrame": "32",
+      "ActiveFrame": "**",
+      "FramesEndLag": "--",
+      "FramesOnShield": "-29 to -27",
+      "BaseDamage": "10.8\u201412.8%"
+    },
+    "Up B (Egg Throw)": {
+      "StartupFrame": "16",
+      "ActiveFrame": "16\u2014**",
+      "FramesEndLag": "--",
+      "FramesOnShield": "-30",
+      "BaseDamage": "6.0%"
+    },
+    "Down B (Yoshi Bomb, Yoshi Bomb Air)": {
+      "StartupFrame": "7/27, 19",
+      "ActiveFrame": "7/27/*, 19/*",
+      "FramesEndLag": "--",
+      "FramesOnShield": "-32, -32",
+      "BaseDamage": "4.0/15.0/4.0, 12.0/4.0%"
+    }
+  },
+  "MiscInfo": {
+    "Weight": 104,
+    "Gravity": 0.08,
+    "Walk Speed": 1.208,
+    "Run Speed": 2.046,
+    "Air Speed": 1.98,
+    "Standing Grab Speed (Frames)": 14,
+    "Dash Grab Speed (Frames)": 16,
+    "Pivot Grab Speed (Frames)": 17,
+    "Fastest OoS Option": "Neutral Air - 6 frames"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "Character": "DonkeyKong",
+  "GroundMoves": {
+    "Jab1": {
+      "StartupFrame": "5",
+      "ActiveFrame": "5\u20146",
+      "FramesEndLag": "18",
+      "FramesOnShield": "-14",
+      "BaseDamage": "4.0%"
+    },
+    "Jab2": {
+      "StartupFrame": "4",
+      "ActiveFrame": "4\u20146",
+      "FramesEndLag": "25",
+      "FramesOnShield": "-24",
+      "BaseDamage": "6.0%"
+    },
+    "Forward Tilt": {
+      "StartupFrame": "7",
+      "ActiveFrame": "7\u20149",
+      "FramesEndLag": "25",
+      "FramesOnShield": "-19/-18",
+      "BaseDamage": "8.0/9.0%"
+    },
+    "Up Tilt": {
+      "StartupFrame": "5",
+      "ActiveFrame": "5\u201411",
+      "FramesEndLag": "27",
+      "FramesOnShield": "-23",
+      "BaseDamage": "10.0%"
+    },
+    "Down Tilt": {
+      "StartupFrame": "6",
+      "ActiveFrame": "6\u20147",
+      "FramesEndLag": "17",
+      "FramesOnShield": "-12",
+      "BaseDamage": "6.0%"
+    },
+    "Dash Attack": {
+      "StartupFrame": "9",
+      "ActiveFrame": "9\u201412/13\u201424",
+      "FramesEndLag": "10",
+      "FramesOnShield": "-14",
+      "BaseDamage": "12.0/9.0%"
+    },
+    "Forward Smash": {
+      "StartupFrame": "22",
+      "ActiveFrame": "22\u201423",
+      "FramesEndLag": "31",
+      "FramesOnShield": "-18",
+      "BaseDamage": "22.0/21.0%"
+    },
+    "Up Smash": {
+      "StartupFrame": "14",
+      "ActiveFrame": "14\u201415",
+      "FramesEndLag": "34",
+      "FramesOnShield": "-22",
+      "BaseDamage": "19.0%"
+    },
+    "Down Smash": {
+      "StartupFrame": "11",
+      "ActiveFrame": "11\u201412/13\u201414",
+      "FramesEndLag": "41",
+      "FramesOnShield": "-33",
+      "BaseDamage": "17.0/18.0/14.0%"
+    }
+  },
+  "AerialMoves": {
+    "Neutral Air": {
+      "StartupFrame": "10",
+      "ActiveFrame": "10\u201413/14\u201426",
+      "FramesEndLag": "12",
+      "FramesOnShield": "-6",
+      "Autocancels": ["SH", "FH", "SHFF", "FHFF"],
+      "BaseDamage": "12.0/9.0%"
+    },
+    "Forward Air": {
+      "StartupFrame": "18",
+      "ActiveFrame": "18\u201420/21\u201423",
+      "FramesEndLag": "32",
+      "FramesOnShield": "-11/-12",
+      "Autocancels": ["N/A"],
+      "BaseDamage": "16.0/15.0/13.0%"
+    },
+    "Back Air": {
+      "StartupFrame": "7",
+      "ActiveFrame": "7\u20148/9\u201416",
+      "FramesEndLag": "15",
+      "FramesOnShield": "-6/-7",
+      "Autocancels": ["SH", "FH", "FHFF"],
+      "BaseDamage": "13.0/8.0%"
+    },
+    "Up Air": {
+      "StartupFrame": "6",
+      "ActiveFrame": "6\u201410",
+      "FramesEndLag": "27",
+      "FramesOnShield": "-10",
+      "Autocancels": ["SH", "FH", "SHFF", "FHFF"],
+      "BaseDamage": "13.0%"
+    },
+    "Down Air": {
+      "StartupFrame": "14",
+      "ActiveFrame": "14\u201416",
+      "FramesEndLag": "38",
+      "FramesOnShield": "0",
+      "Autocancels": ["FH"],
+      "BaseDamage": "16.0/13.0%"
+    }
+  },
+  "SpecialMoves": {
+    "Neutral B (Giant Punch)": {
+      "StartupFrame": "19(+7)",
+      "ActiveFrame": "26\u201427 (19\u201420 after starting charge)",
+      "FramesEndLag": "35",
+      "FramesOnShield": "-33 to -21",
+      "BaseDamage": "10.0\u201427.0%"
+    },
+    "Side B (Headbutt)": {
+      "StartupFrame": "20",
+      "ActiveFrame": "20\u201421",
+      "FramesEndLag": "41",
+      "FramesOnShield": "-32",
+      "BaseDamage": "10.0%"
+    },
+    "Up B (Spinning Kong)": {
+      "StartupFrame": "19/25/32/40/49/55/62",
+      "ActiveFrame": "(19/25-27/32-33/40-42/49-50/55-58/62)",
+      "FramesEndLag": "42",
+      "FramesOnShield": "-37",
+      "BaseDamage": "5.0/1.3/4.0%"
+    },
+    "Down B (Hand Slap)": {
+      "StartupFrame": "12/23",
+      "ActiveFrame": "12\u201413/23\u201424...",
+      "FramesEndLag": "22",
+      "FramesOnShield": "-15",
+      "BaseDamage": "14.0%"
+    },
+
+    "Spinning Kong, Air": {
+      "StartupFrame": "4/12...",
+      "ActiveFrame": "(4-6/10-12/13-14/15-17/18-19/20-21/22-24/25-26/27-29/30-31/32-33/34-36/37-38/39-43)",
+      "FramesEndLag": "--",
+      "FramesOnShield": "N/A",
+
+      "BaseDamage": "5.0/1.0/2.0%"
+    },
+    "Hand Slap, Air": {
+      "StartupFrame": "19/28",
+      "ActiveFrame": "19\u201421/28\u201430",
+      "FramesEndLag": "19",
+      "FramesOnShield": "-4",
+
+      "BaseDamage": "5.0/6.0%"
+    }
+  },
+  "MiscInfo": {
+    "Weight": 127,
+    "Gravity": 0.085,
+    "Walk Speed": 1.365,
+    "Run Speed": 1.873,
+    "Air Speed": 1.208,
+    "Standing Grab Speed (Frames)": 8,
+    "Dash Grab Speed (Frames)": 11,
+    "Pivot Grab Speed (Frames)": 12,
+    "Fastest OoS Option": "Aerial Up B - 7 frames"
+  }
+}

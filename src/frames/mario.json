@@ -1,0 +1,158 @@
+{
+  "Character": "Mario",
+  "GroundMoves": {
+    "Jab 1": {
+      "StartupFrame": 2,
+      "ActiveFrame": "2-3",
+      "FramesEndLag": 16,
+      "FramesOnShield": -14,
+      "BaseDamage": "2.2%"
+    },
+    "Jab 2": {
+      "StartupFrame": 2,
+      "ActiveFrame": "2-3",
+      "FramesEndLag": 18,
+      "FramesOnShield": -16,
+      "BaseDamage": "1.7%"
+    },
+    "Jab 3": {
+      "StartupFrame": 3,
+      "ActiveFrame": "3-4",
+      "FramesEndLag": 29,
+      "FramesOnShield": -29,
+      "BaseDamage": "4.0%"
+    },
+    "Forward Tilt": {
+      "StartupFrame": 5,
+      "ActiveFrame": "5-7",
+      "FramesEndLag": 18,
+      "FramesOnShield": -13,
+      "BaseDamage": "7.0%"
+    },
+    "Up Tilt": {
+      "StartupFrame": 5,
+      "ActiveFrame": "5-11",
+      "FramesEndLag": 18,
+      "FramesOnShield": -18,
+      "BaseDamage": "5.5%"
+    },
+    "Down Tilt": {
+      "StartupFrame": 5,
+      "ActiveFrame": "5-7",
+      "FramesEndLag": 20,
+      "FramesOnShield": "-15/-16",
+      "BaseDamage": "7.0%/5.0%"
+    },
+    "Dash Attack": {
+      "StartupFrame": 6,
+      "ActiveFrame": "6-9 (10-25)",
+      "FramesEndLag": 12,
+      "FramesOnShield": -17,
+      "BaseDamage": "8.0%/6.0%"
+    },
+    "Forward Smash": {
+      "StartupFrame": 15,
+      "ActiveFrame": "15-17",
+      "FramesEndLag": 30,
+      "FramesOnShield": "-22/-20",
+      "BaseDamage": "17.7%/14.6%"
+    },
+    "Up Smash": {
+      "StartupFrame": 9,
+      "ActiveFrame": "9-12",
+      "FramesEndLag": 27,
+      "FramesOnShield": -20,
+      "BaseDamage": "14.0%"
+    },
+    "Down Smash": {
+      "StartupFrame": "5/14",
+      "ActiveFrame": "5-6/14",
+      "FramesEndLag": 29,
+      "FramesOnShield": "-31/-21",
+      "BaseDamage": "10.0%/12.0%"
+    }
+  },
+  "AerialMoves": {
+    "NeutralAir": {
+      "StartupFrame": 3,
+      "ActiveFrame": "3-5(6-27)",
+      "FramesEndLag": 18,
+      "FramesOnShield": "-2/-3",
+      "Autocancels": ["SH", "FH", "FHFF"],
+      "BaseDamage": "8.0%/5.0%"
+    },
+    "Forward Air": {
+      "StartupFrame": 16,
+      "ActiveFrame": "16/17-20/21",
+      "FramesEndLag": 38,
+      "FramesOnShield": "-12",
+      "Autocancels": ["FH"],
+      "BaseDamage": "12.0%/14.0%/10.0%"
+    },
+    "Back Air": {
+      "StartupFrame": 6,
+      "ActiveFrame": "6-7(8-10)",
+      "FramesEndLag": 23,
+      "FramesOnShield": "-2/-3",
+      "Autocancels": ["SH", "FH", "SHFF", "FHFF"],
+      "BaseDamage": "10.5%/7.0%"
+    },
+    "Up Air": {
+      "StartupFrame": 4,
+      "ActiveFrame": "-7",
+      "FramesEndLag": 23,
+      "FramesOnShield": "-3",
+      "Autocancels": ["SH", "FH", "SHFF", "FHFF"],
+      "BaseDamage": "7.0%"
+    },
+    "Down Air": {
+      "StartupFrame": 5,
+      "ActiveFrame": "5",
+      "FramesEndLag": 14,
+      "FramesOnShield": "-11",
+      "Autocancels": ["SH", "FH", "FHFF"],
+      "BaseDamage": "1.3%/5.5%/2.0%"
+    }
+  },
+  "SpecialMoves": {
+    "Neutral B": {
+      "StartupFrame": 17,
+      "ActiveFrame": "17-21",
+      "FramesEndLag": "N/A",
+      "FramesOnShield": "-23",
+      "BaseDamage": "5.0%/4.0%"
+    },
+    "Side B": {
+      "StartupFrame": 12,
+      "ActiveFrame": "12-14",
+      "FramesEndLag": 21,
+      "FramesOnShield": "-16",
+      "BaseDamage": "7.0%"
+    },
+    "Up B": {
+      "StartupFrame": 3,
+      "ActiveFrame": "3-6/7-16/17-18",
+      "FramesEndLag": "N/A",
+      "FramesOnShield": "N/A",
+      "BaseDamage": "5.0%/0.6%/3.0%"
+    },
+    "Down B": {
+      "StartupFrame": 2,
+      "ActiveFrame": "21",
+      "FramesEndLag": "N/A",
+      "FramesOnShield": "N/A",
+      "BaseDamage": "N/A"
+    }
+  },
+  "MiscInfo": {
+    "Weight": 98,
+    "Gravity": 0.087,
+    "Walk Speed": 1.155,
+    "Run Speed": 1.76,
+    "Air Speed": 1.208,
+    "Standing Grab Speed (Frames)": 6,
+    "Dash Grab Speed (Frames)": 9,
+    "Pivot Grab Speed (Frames)": 10,
+    "Fastest OoS Option": "Up B - 3 frames"
+  }
+}

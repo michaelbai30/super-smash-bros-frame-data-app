@@ -1,0 +1,173 @@
+{
+  "Character": "Luigi",
+  "GroundMoves": {
+    "Jab1": {
+      "StartupFrame": "2",
+      "ActiveFrame": "2\u20143",
+      "FramesEndLag": "15",
+      "FramesOnShield": "-13",
+      "BaseDamage": "2.0%"
+    },
+    "Jab2": {
+      "StartupFrame": "3",
+      "ActiveFrame": "3\u20144",
+      "FramesEndLag": "14",
+      "FramesOnShield": "-12",
+      "BaseDamage": "2.0%"
+    },
+    "Jab3": {
+      "StartupFrame": "6",
+      "ActiveFrame": "6\u20147",
+      "FramesEndLag": "23",
+      "FramesOnShield": "-19",
+      "BaseDamage": "4.0%"
+    },
+    "Forward Tilt": {
+      "StartupFrame": "5",
+      "ActiveFrame": "5\u20147",
+      "FramesEndLag": "25",
+      "FramesOnShield": "-18",
+      "BaseDamage": "9.0%"
+    },
+    "Up Tilt": {
+      "StartupFrame": "5",
+      "ActiveFrame": "5\u201410",
+      "FramesEndLag": "17",
+      "FramesOnShield": "-15",
+      "BaseDamage": "6.0%"
+    },
+    "Down Tilt": {
+      "StartupFrame": "5",
+      "ActiveFrame": "5\u20148",
+      "FramesEndLag": "5",
+      "FramesOnShield": "-2",
+      "BaseDamage": "5.0%"
+    },
+    "Dash Attack": {
+      "StartupFrame": "4/8/12/16/25",
+      "ActiveFrame": "4/8/12/16/25",
+      "FramesEndLag": "22",
+      "FramesOnShield": "-18",
+      "BaseDamage": "2.0/4.0%"
+    },
+    "Forward Smash": {
+      "StartupFrame": "12",
+      "ActiveFrame": "12\u201413",
+      "FramesEndLag": "28",
+      "FramesOnShield": "-19",
+      "BaseDamage": "15.0%"
+    },
+    "Up Smash": {
+      "StartupFrame": "9",
+      "ActiveFrame": "9\u201413",
+      "FramesEndLag": "26",
+      "FramesOnShield": "-20",
+      "BaseDamage": "14.0/12.0%"
+    },
+    "Down Smash": {
+      "StartupFrame": "6/14",
+      "ActiveFrame": "6\u20147/14\u201415",
+      "FramesEndLag": "22",
+      "FramesOnShield": "-21/-13",
+      "BaseDamage": "15.0/14.0%"
+    }
+  },
+  "AerialMoves": {
+    "Neutral Air": {
+      "StartupFrame": "3",
+      "ActiveFrame": "3\u20145(6\u201431)",
+      "FramesEndLag": "13",
+      "FramesOnShield": "-3/-5",
+      "Autocancels": ["SH", "FH", "FHFF"],
+      "BaseDamage": "12.0/6.0%"
+    },
+    "Forward Air": {
+      "StartupFrame": "7",
+      "ActiveFrame": "7\u201410",
+      "FramesEndLag": "13",
+      "FramesOnShield": "-9",
+      "Autocancels": ["SH", "FH", "SHFF", "FHFF"],
+      "BaseDamage": "8.0%"
+    },
+    "Back Air": {
+      "StartupFrame": "6",
+      "ActiveFrame": "6\u20147(8\u201413)",
+      "FramesEndLag": "31",
+      "FramesOnShield": "-5/-6",
+      "Autocancels": ["SH", "FH", "SHFF", "FHFF"],
+      "BaseDamage": "14.0/8.0%"
+    },
+    "Up Air": {
+      "StartupFrame": "5",
+      "ActiveFrame": "5\u20147(8\u201411)",
+      "FramesEndLag": "15",
+      "FramesOnShield": "-3/-4",
+      "Autocancels": ["SH", "FH", "SHFF", "FHFF"],
+      "BaseDamage": "11.0/7.0%"
+    },
+    "Down Air": {
+      "StartupFrame": "10",
+      "ActiveFrame": "10(11\u201414)",
+      "FramesEndLag": "14",
+      "FramesOnShield": "-8/-8",
+      "Autocancels": ["SH", "FH", "SHFF", "FHFF"],
+      "BaseDamage": "10.0/8.0%"
+    },
+    "ZAir": {
+      "StartupFrame": "14",
+      "ActiveFrame": "14\u201468",
+      "FramesEndLag": "--",
+      "FramesOnShield": "-2",
+      "Autocancels": ["--"],
+      "BaseDamage": "5.0%"
+    }
+  },
+  "SpecialMoves": {
+    "Neutral B (Fireball)": {
+      "StartupFrame": "17",
+      "ActiveFrame": "17\u201445(46\u201466)",
+      "FramesEndLag": "--",
+      "FramesOnShield": "-20",
+      "BaseDamage": "6.0/5.0%"
+    },
+    "Side B (Green Missile)": {
+      "StartupFrame": "22",
+      "ActiveFrame": "22\u201460",
+      "FramesEndLag": "19",
+      "FramesOnShield": "-26 to -14/-10",
+      "BaseDamage": "6.1\u201421.0/25.0%"
+    },
+    "Up B (Super Jump Punch, Ground)": {
+      "StartupFrame": "8",
+      "ActiveFrame": "8(9\u201423)",
+      "FramesEndLag": "86",
+      "FramesOnShield": "-79/-99",
+      "BaseDamage": "25.0/1.0%"
+    },
+    "Up B (Super Jump Punch, Air)": {
+      "StartupFrame": "6",
+      "ActiveFrame": "6(7\u201423)",
+      "FramesEndLag": "--",
+      "FramesOnShield": "**",
+      "BaseDamage": "20.0/1.0%"
+    },
+    "Down B (Luigi Cyclone)": {
+      "StartupFrame": "10.../40",
+      "ActiveFrame": "10\u201433(rehit:6)/40",
+      "FramesEndLag": "45",
+      "FramesOnShield": "-40",
+      "BaseDamage": "2.0/4.0%"
+    }
+  },
+  "MiscInfo": {
+    "Weight": 97,
+    "Gravity": 0.083,
+    "Walk Speed": 1.134,
+    "Run Speed": 1.65,
+    "Air Speed": 1.815,
+    "Standing Grab Speed (Frames)": 14,
+    "Dash Grab Speed (Frames)": 16,
+    "Pivot Grab Speed (Frames)": 17,
+    "Fastest OoS Option": "Neutral Air - 6 frames"
+  }
+}
