@@ -38,4 +38,4 @@ Here's a breakdown of some terms you might come across:
 Frame data was gathered from [this google spreadsheet](https://docs.google.com/spreadsheets/d/16fmsoqDoQaR1eteVk2uuzIH2DB4iQHVrqiG8VRbRA7Q/edit#gid=123650910) courtesy of Zapp Branniglenn as well as webscraped from www.ssbwiki.com individual character pages.
 
 ## Future Work 
-Rhis application is a simple, yet functional and elegant proof-of-concept for the first 12 fighters in Super Smash Bros. Ultimate. Future work would involve implementing pages for all 85 fighters in Super Smash Bros. Ultimate as well as including images / gifs of each move in question.
+This application is a simple, yet functional and elegant proof-of-concept for the first 12 fighters in Super Smash Bros. Ultimate. Future work would involve implementing pages for all 85 fighters in Super Smash Bros. Ultimate as well as including images / gifs of each move in question.
